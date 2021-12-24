@@ -1,3 +1,9 @@
 [submodule "DW-frontend"]
 	path = DW-frontend
 	url = git@github.com:wangwangwang23333/DW-frontend.git
+[submodule "DW-backend"]
+	path = DW-backend
+	url = git@github.com:wangwangwang23333/DW-backend.git
+[submodule "DW-hive-backend"]
+	path = DW-hive-backend
+	url = git@github.com:Shotray/DW-hive-backend.git
