@@ -89,7 +89,7 @@ src = soup.find(class_="a-row a-text-	     center").findChild(name="img").attrs[
 
 在将图片提取出来之后，下一个要解决的问题就是如何将图片中的字符识别出来。
 
-针对于这一问题，我们在github上发现了Amazon Captcha库(https://github.com/a-maliarov/amazoncaptcha)。它可以接受图片，通过预先训练好的模型，将图片转化为结果字符串。
+针对于这一问题，我们在github上发现了Amazon Captcha库(https://github.com/a-maliarov/amazoncaptcha )。它可以接受图片，通过预先训练好的模型，将图片转化为结果字符串。
 
 因此，我们将前面得到的图片url放入该训练模型中，即可获得结果字符串。在获得结果之后，将其回填到输入框中，并点击确定键，即完成了验证码识别。
 
