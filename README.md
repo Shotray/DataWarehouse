@@ -139,7 +139,7 @@ prefs = {
 options.add_experimental_option('prefs', prefs)
 ```
 
-在爬取完成之后，我们共获得了 ##TODO
+在爬取完成之后，我们共获得了上万条数据。
 
 # 2 数据预处理
 
