@@ -13,7 +13,7 @@ import pandas as pd
 class AsinTreatment:
     @staticmethod
     def handle():
-        fileName=r'D:\学习文件\大三-上\JavaEE\JavaEEPre\src\main\resources\Movies_and_TV_5.json'
+        fileName='./Movies_and_TV_5.json'
         asinSet=set()
         
         with open(fileName, 'r', encoding='utf-8') as f:
